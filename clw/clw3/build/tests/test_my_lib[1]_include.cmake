@@ -1,0 +1,5 @@
+if(EXISTS "C:/OOP/clw/clw3/build/tests/test_my_lib[1]_tests.cmake")
+  include("C:/OOP/clw/clw3/build/tests/test_my_lib[1]_tests.cmake")
+else()
+  add_test(test_my_lib_NOT_BUILT test_my_lib_NOT_BUILT)
+endif()
