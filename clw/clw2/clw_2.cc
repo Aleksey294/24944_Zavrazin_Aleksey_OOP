@@ -25,7 +25,7 @@ T operat(T a, T b, char op) {
 
 int main() {
     vector<string> v {"a", "b", "d", "a", "add", "string"};
-    pv(v);
+    pv<string>(v);
 
     vector<int> vi {1, 2, 3, 4, 5};
     pv(vi);
@@ -36,7 +36,7 @@ int main() {
     double x = 10.5, y = 4.2;
     int a = 10, b = 4;
 
-    cout << "double: " << x << " + " << y << " = " << operat(x, y, '+') << endl;
+    cout << "double: " << x << " + " << y << " = " << operat<int>(x, y, '+') << endl;
     cout << "int: " << a << " * " << b << " = " << operat(a, b, '*') << endl;
     cout << "int: " << a << " / " << b << " = " << operat(a, b, '/') << endl;
 
