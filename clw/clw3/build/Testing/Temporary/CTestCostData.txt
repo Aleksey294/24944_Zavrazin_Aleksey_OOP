@@ -1,0 +1,8 @@
+MyLibTest.Pow 3 0.00159038
+MyLibTest.Add 3 0.00160024
+MyLibTest.Sub 3 0.00167217
+MyLibTest.Mul 3 0.00182861
+MyLibTest.DivideNormal 3 0.00171792
+MyLibTest.DivideByZero 3 0.00162512
+MyLibTest.Operat 3 0.00186705
+---

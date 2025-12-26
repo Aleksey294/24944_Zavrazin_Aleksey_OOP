@@ -1,6 +1,19 @@
-add_subdirectory(${CMAKE_SOURCE_DIR}/googletest googletest)
+include(FetchContent)
+
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.14.0  # или main для последней версии
+)
+
+# Для Windows: предотвращает переопределение родительских флагов компилятора
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
 include(GoogleTest)
 
-add_executable(test_book test_book.cpp)
-target_link_libraries(test_book PRIVATE book gtest gtest_main)
-gtest_discover_tests(test_book)
+add_executable(test_my_lib test_book.cpp)
+target_link_libraries(test_my_lib PRIVATE my_lib GTest::gtest_main)
+gtest_discover_tests(test_my_lib)

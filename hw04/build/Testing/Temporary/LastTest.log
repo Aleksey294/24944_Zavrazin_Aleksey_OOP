@@ -1,0 +1,388 @@
+Start testing: Dec 20 04:55 +07
+----------------------------------------------------------
+1/13 Testing: BookTest.Normalization
+1/13 Test: BookTest.Normalization
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.Normalization" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.Normalization" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.Normalization
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.Normalization
+init constructor
+destructor
+[       OK ] BookTest.Normalization (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.Normalization" end time: Dec 20 04:55 +07
+"BookTest.Normalization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: BookTest.NormalizationEdgeCases
+2/13 Test: BookTest.NormalizationEdgeCases
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.NormalizationEdgeCases" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.NormalizationEdgeCases" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.NormalizationEdgeCases
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.NormalizationEdgeCases
+init constructor
+init constructor
+destructor
+destructor
+[       OK ] BookTest.NormalizationEdgeCases (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.NormalizationEdgeCases" end time: Dec 20 04:55 +07
+"BookTest.NormalizationEdgeCases" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/13 Testing: BookTest.AddBookmark
+3/13 Test: BookTest.AddBookmark
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.AddBookmark" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.AddBookmark" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.AddBookmark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.AddBookmark
+init constructor
+destructor
+[       OK ] BookTest.AddBookmark (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.AddBookmark" end time: Dec 20 04:55 +07
+"BookTest.AddBookmark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/13 Testing: BookTest.AddInvalidBookmark
+4/13 Test: BookTest.AddInvalidBookmark
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.AddInvalidBookmark" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.AddInvalidBookmark" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.AddInvalidBookmark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.AddInvalidBookmark
+init constructor
+destructor
+[       OK ] BookTest.AddInvalidBookmark (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.AddInvalidBookmark" end time: Dec 20 04:55 +07
+"BookTest.AddInvalidBookmark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: BookTest.RemoveBookmark
+5/13 Test: BookTest.RemoveBookmark
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.RemoveBookmark" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.RemoveBookmark" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.RemoveBookmark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.RemoveBookmark
+init constructor
+destructor
+[       OK ] BookTest.RemoveBookmark (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.RemoveBookmark" end time: Dec 20 04:55 +07
+"BookTest.RemoveBookmark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: BookTest.RemoveAllBookmarks
+6/13 Test: BookTest.RemoveAllBookmarks
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.RemoveAllBookmarks" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.RemoveAllBookmarks" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.RemoveAllBookmarks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.RemoveAllBookmarks
+init constructor
+destructor
+[       OK ] BookTest.RemoveAllBookmarks (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.RemoveAllBookmarks" end time: Dec 20 04:55 +07
+"BookTest.RemoveAllBookmarks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/13 Testing: BookTest.RemoveNonexistentBookmark
+7/13 Test: BookTest.RemoveNonexistentBookmark
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.RemoveNonexistentBookmark" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.RemoveNonexistentBookmark" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.RemoveNonexistentBookmark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.RemoveNonexistentBookmark
+init constructor
+destructor
+[       OK ] BookTest.RemoveNonexistentBookmark (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.RemoveNonexistentBookmark" end time: Dec 20 04:55 +07
+"BookTest.RemoveNonexistentBookmark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/13 Testing: BookTest.DefaultConstructor
+8/13 Test: BookTest.DefaultConstructor
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.DefaultConstructor" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.DefaultConstructor
+default constructor
+destructor
+[       OK ] BookTest.DefaultConstructor (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.DefaultConstructor" end time: Dec 20 04:55 +07
+"BookTest.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: BookTest.InitConstructor
+9/13 Test: BookTest.InitConstructor
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.InitConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.InitConstructor" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.InitConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.InitConstructor
+init constructor
+destructor
+[       OK ] BookTest.InitConstructor (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.InitConstructor" end time: Dec 20 04:55 +07
+"BookTest.InitConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/13 Testing: BookTest.CopyConstructor
+10/13 Test: BookTest.CopyConstructor
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.CopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.CopyConstructor" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.CopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.CopyConstructor
+init constructor
+copy constructor
+destructor
+destructor
+[       OK ] BookTest.CopyConstructor (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.CopyConstructor" end time: Dec 20 04:55 +07
+"BookTest.CopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/13 Testing: BookTest.CopyAssignment
+11/13 Test: BookTest.CopyAssignment
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.CopyAssignment" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.CopyAssignment" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.CopyAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.CopyAssignment
+init constructor
+default constructor
+assignment operator
+destructor
+destructor
+[       OK ] BookTest.CopyAssignment (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.CopyAssignment" end time: Dec 20 04:55 +07
+"BookTest.CopyAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/13 Testing: BookTest.SelfAssignment
+12/13 Test: BookTest.SelfAssignment
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.SelfAssignment" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.SelfAssignment" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.SelfAssignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.SelfAssignment
+init constructor
+assignment operator
+destructor
+[       OK ] BookTest.SelfAssignment (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.SelfAssignment" end time: Dec 20 04:55 +07
+"BookTest.SelfAssignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/13 Testing: BookTest.DuplicateBookmarks
+13/13 Test: BookTest.DuplicateBookmarks
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book" "--gtest_filter=BookTest.DuplicateBookmarks" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests
+"BookTest.DuplicateBookmarks" start time: Dec 20 04:55 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = BookTest.DuplicateBookmarks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BookTest
+[ RUN      ] BookTest.DuplicateBookmarks
+init constructor
+destructor
+[       OK ] BookTest.DuplicateBookmarks (0 ms)
+[----------] 1 test from BookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BookTest.DuplicateBookmarks" end time: Dec 20 04:55 +07
+"BookTest.DuplicateBookmarks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 20 04:55 +07

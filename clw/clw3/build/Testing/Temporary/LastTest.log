@@ -1,0 +1,192 @@
+Start testing: Dec 19 15:59 +07
+----------------------------------------------------------
+1/7 Testing: MyLibTest.Pow
+1/7 Test: MyLibTest.Pow
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.Pow" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.Pow" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.Pow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.Pow
+[       OK ] MyLibTest.Pow (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.Pow" end time: Dec 19 15:59 +07
+"MyLibTest.Pow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: MyLibTest.Add
+2/7 Test: MyLibTest.Add
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.Add" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.Add" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.Add
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.Add
+[       OK ] MyLibTest.Add (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.Add" end time: Dec 19 15:59 +07
+"MyLibTest.Add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: MyLibTest.Sub
+3/7 Test: MyLibTest.Sub
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.Sub" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.Sub" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.Sub
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.Sub
+[       OK ] MyLibTest.Sub (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.Sub" end time: Dec 19 15:59 +07
+"MyLibTest.Sub" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: MyLibTest.Mul
+4/7 Test: MyLibTest.Mul
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.Mul" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.Mul" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.Mul
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.Mul
+[       OK ] MyLibTest.Mul (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.Mul" end time: Dec 19 15:59 +07
+"MyLibTest.Mul" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: MyLibTest.DivideNormal
+5/7 Test: MyLibTest.DivideNormal
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.DivideNormal" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.DivideNormal" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.DivideNormal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.DivideNormal
+[       OK ] MyLibTest.DivideNormal (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.DivideNormal" end time: Dec 19 15:59 +07
+"MyLibTest.DivideNormal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: MyLibTest.DivideByZero
+6/7 Test: MyLibTest.DivideByZero
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.DivideByZero" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.DivideByZero" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.DivideByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.DivideByZero
+[       OK ] MyLibTest.DivideByZero (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.DivideByZero" end time: Dec 19 15:59 +07
+"MyLibTest.DivideByZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: MyLibTest.Operat
+7/7 Test: MyLibTest.Operat
+Command: "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests/test_my_lib" "--gtest_filter=MyLibTest.Operat" "--gtest_also_run_disabled_tests"
+Directory: /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/tests
+"MyLibTest.Operat" start time: Dec 19 15:59 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = MyLibTest.Operat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyLibTest
+[ RUN      ] MyLibTest.Operat
+[       OK ] MyLibTest.Operat (0 ms)
+[----------] 1 test from MyLibTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyLibTest.Operat" end time: Dec 19 15:59 +07
+"MyLibTest.Operat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 19 15:59 +07

@@ -1,0 +1,5 @@
+if(EXISTS "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book[1]_tests.cmake")
+  include("/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/hw04/build/tests/test_book[1]_tests.cmake")
+else()
+  add_test(test_book_NOT_BUILT test_book_NOT_BUILT)
+endif()

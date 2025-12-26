@@ -11,7 +11,23 @@ void pv(const std::vector<T>& vec) {
 }
 
 template <typename T>
-T pow(T a) { return a * a; }
+T pow(T base, int exponent) {
+    if (exponent < 0) {
+        // Для отрицательной степени возвращаем дробное значение
+        return static_cast<T>(1) / pow(base, -exponent);
+    }
+    
+    T result = 1;
+    while (exponent > 0) {
+        if (exponent % 2 == 1) {
+            result *= base;
+        }
+        base *= base;
+        exponent /= 2;
+    }
+    return result;
+}
+
 
 template <typename T>
 T add(T a, T b) { return a + b; }
@@ -41,12 +57,16 @@ T operat(T a, T b, char op) {
 
 // ----------- Явные инстанцирования ----------
 template void pv<int>(const std::vector<int>&);
-template int pow<int>(int);
 template int add<int>(int, int);
 template int sub<int>(int, int);
 template int mul<int>(int, int);
 template int divide<int>(int, int);
 template int operat<int>(int, int, char);
+template void pv<std::string>(const std::vector<std::string>&);
+template void pv<double>(const std::vector<double>&);
+template int pow<int>(int, int);
+template double pow<double>(double, int);
+
 
 // сюда можно добавить double, float и т.д.
 

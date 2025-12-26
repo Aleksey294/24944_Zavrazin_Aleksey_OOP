@@ -1,0 +1,14 @@
+BookTest.Normalization 1 0.00352449
+BookTest.NormalizationEdgeCases 2 0.00219445
+BookTest.AddBookmark 2 0.00213752
+BookTest.AddInvalidBookmark 2 0.00191122
+BookTest.RemoveBookmark 2 0.00172498
+BookTest.RemoveAllBookmarks 2 0.00187834
+BookTest.RemoveNonexistentBookmark 2 0.001724
+BookTest.DefaultConstructor 2 0.00189091
+BookTest.InitConstructor 2 0.0022438
+BookTest.CopyConstructor 2 0.00174514
+BookTest.CopyAssignment 2 0.00220408
+BookTest.SelfAssignment 2 0.00184814
+BookTest.DuplicateBookmarks 2 0.0018522
+---

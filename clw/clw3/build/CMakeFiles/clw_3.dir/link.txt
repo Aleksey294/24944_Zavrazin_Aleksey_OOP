@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/clw_3.dir/clw_3.cc.o -o clw_3  libmy_lib.a 

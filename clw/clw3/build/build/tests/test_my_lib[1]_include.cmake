@@ -1,0 +1,5 @@
+if(EXISTS "/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/build/tests/test_my_lib[1]_tests.cmake")
+  include("/home/aleksey/OOP/24944_Zavrazin_Aleksey_OOP/clw/clw3/build/build/tests/test_my_lib[1]_tests.cmake")
+else()
+  add_test(test_my_lib_NOT_BUILT test_my_lib_NOT_BUILT)
+endif()

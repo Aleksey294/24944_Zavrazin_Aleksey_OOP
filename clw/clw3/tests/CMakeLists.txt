@@ -1,10 +1,19 @@
-add_subdirectory(${CMAKE_SOURCE_DIR}/googletest googletest)
-# добавляем googletest в проект
+include(FetchContent)
+
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.14.0  # или main для последней версии
+)
+
+#предотвращает переопределение родительских флагов компилятора
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
 include(GoogleTest)
-# включаем модуль GoogleTest
+
 add_executable(test_my_lib test_my_lib.cpp)
-# создаем исполняемый файл для тестов из test_my_lib.cpp
-target_link_libraries(test_my_lib PRIVATE my_lib gtest gtest_main)
-# линкуем библиотеку my_lib и googletest с исполняемым файлом тестов
+target_link_libraries(test_my_lib PRIVATE my_lib GTest::gtest_main)
 gtest_discover_tests(test_my_lib)
-# автоматически находим и регистрируем тесты в test_my_lib
